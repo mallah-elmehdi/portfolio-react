@@ -50,7 +50,7 @@ export default () => {
 		<Container maxW='container.xl'>
 			<Flex p={2} w="100%" minWidth='max-content' alignItems='center' gap='2'>
 				<Box p='2'>
-					<Heading size='lg' color="tomato">EL MEHDI</Heading>
+					<Heading size='lg' bgGradient='linear(to-tl, tomato, orange.100, tomato)' bgClip='text'>EL MEHDI</Heading>
 				</Box>
 				<Spacer />
 				<Flex>
