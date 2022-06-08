@@ -6,6 +6,7 @@ import {
 	IconButtonProps,
 } from "@chakra-ui/react"
 import { FaMoon, FaSun } from "react-icons/fa"
+import { motion } from 'framer-motion'
 
 type ColorModeSwitcherProps = Omit<IconButtonProps, "aria-label">
 
@@ -16,6 +17,9 @@ const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = (props) => {
 
 	return (
 		<IconButton
+		as={motion.button}
+		whileHover={{ scale: 1.1 }}
+		whileTap={{ scale: 0.9 }}
 			borderRadius="full"
 			size="md"
 			fontSize="lg"

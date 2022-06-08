@@ -1,9 +1,7 @@
 import * as React from "react"
 
 /*
-**
-* CHAKRA COMPONENTS
-**
+** CHAKRA COMPONENTS
 */
 
 import {
@@ -15,11 +13,10 @@ import {
     Link,
 	Container
 } from "@chakra-ui/react"
+import { motion } from 'framer-motion'
 
 /*
-**
-* REACT ICONS
-**
+** REACT ICONS
 */
 
 import {
@@ -28,25 +25,19 @@ import {
 } from "react-icons/fa"
 
 /*
-**
-* OTHER COMPONENTS
-**
+** OTHER COMPONENTS
 */
 
 import { ColorModeSwitcher } from "../../components"
 
 /*
-**
-* THE COMPONENT
-**
+** THE COMPONENT
 */
 
 export default () => {
 
     /*
-    **
-    * MAIN TEMPLATE
-    **
+    ** MAIN TEMPLATE
     */
 
     return (
@@ -57,7 +48,11 @@ export default () => {
 				</Box>
 				<Spacer />
 				<Flex>
-					<Link href='https://www.linkedin.com/in/mallah-elmehdi/' isExternal>
+					<Link href='https://www.linkedin.com/in/mallah-elmehdi/'
+					as={motion.button}
+					whileHover={{ scale: 1.1 }}
+					whileTap={{ scale: 0.9 }}
+					isExternal>
 						<IconButton
 							aria-label="Github Profile"
 							borderRadius="full"
@@ -68,7 +63,11 @@ export default () => {
 							icon={<FaGithub />}
 						/>
 					</Link>
-					<Link href='https://github.com/mallah-elmehdi' isExternal>
+					<Link href='https://github.com/mallah-elmehdi'
+					as={motion.button}
+					whileHover={{ scale: 1.1 }}
+					whileTap={{ scale: 0.9 }}
+					 isExternal>
 						<IconButton
 							aria-label="LinkedIn Profile"
 							borderRadius="full"
