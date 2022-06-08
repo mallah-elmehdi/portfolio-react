@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d526c142.css",
+    "main.js": "/static/js/main.f5b9d892.js",
+    "static/media/elmehdi.jpeg": "/static/media/elmehdi.afe3c5f368500957255f.jpeg",
+    "static/media/shadows-into-light-all-400-normal.woff": "/static/media/shadows-into-light-all-400-normal.c5d8738f7587e5d71d70.woff",
+    "static/media/shadows-into-light-latin-400-normal.woff2": "/static/media/shadows-into-light-latin-400-normal.720e9b3fbe2aea1eece8.woff2",
+    "index.html": "/index.html",
+    "main.d526c142.css.map": "/static/css/main.d526c142.css.map",
+    "main.f5b9d892.js.map": "/static/js/main.f5b9d892.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d526c142.css",
+    "static/js/main.f5b9d892.js"
+  ]
+}
