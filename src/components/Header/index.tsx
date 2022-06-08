@@ -22,7 +22,10 @@ import {
 **
 */
 
-import { FaLinkedin, FaGithub } from "react-icons/fa"
+import {
+	FaLinkedin,
+	FaGithub
+} from "react-icons/fa"
 
 /*
 **
