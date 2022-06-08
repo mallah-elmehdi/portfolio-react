@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.717e2a7f.css",
+    "main.js": "/portfolio-react/static/js/main.733bfe27.js",
+    "static/media/elmehdi.jpeg": "/portfolio-react/static/media/elmehdi.afe3c5f368500957255f.jpeg",
+    "static/media/shadows-into-light-all-400-normal.woff": "/portfolio-react/static/media/shadows-into-light-all-400-normal.c5d8738f7587e5d71d70.woff",
+    "static/media/shadows-into-light-latin-400-normal.woff2": "/portfolio-react/static/media/shadows-into-light-latin-400-normal.720e9b3fbe2aea1eece8.woff2",
+    "index.html": "/portfolio-react/index.html",
+    "main.717e2a7f.css.map": "/portfolio-react/static/css/main.717e2a7f.css.map",
+    "main.733bfe27.js.map": "/portfolio-react/static/js/main.733bfe27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.717e2a7f.css",
+    "static/js/main.733bfe27.js"
+  ]
+}
