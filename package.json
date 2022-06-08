@@ -2,6 +2,7 @@
   "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://mallah-elmehdi.github.io/portfolio-react",
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.0",
@@ -25,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
